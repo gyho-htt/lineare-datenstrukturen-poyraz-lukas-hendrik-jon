@@ -3,14 +3,14 @@ File0=Stack.java
 
 [Box:  - Stack$Node]
 X=20
-Y=40
+Y=273
 MinVis=0
 ShowParameter=4
 SortOrder=0
 ShowIcons=1
 
 [Box:  - Stack<ContentType>]
-X=280
+X=22
 Y=40
 MinVis=0
 ShowParameter=4
@@ -30,6 +30,6 @@ Fontname=Segoe UI
 Fontsize=12
 ShowObjectDiagram=0
 
-[FInteractive]
-I0=
+[Connections]
+V0=Stack<ContentType>#Stack$Node#AssociationDirected####0#0#0###0#0
 

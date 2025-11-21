@@ -9,7 +9,7 @@ public class Stack<ContentType> {
   // end attributes
   
   
-  private class Node {
+  public class Node {
     
     private ContentType content;
     private Node past;
@@ -86,11 +86,11 @@ public class Stack<ContentType> {
       
     }
   
-  public ContentType getTop() {
+  public Node getTop() {
     if (isEmpty()) {
       return null;
     } else {
-      return top.getContent(); 
+      return this.top; 
       } // end of if-else // end of if
     }
   
